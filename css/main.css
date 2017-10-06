@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#frame {
+    position: relative;
+    background-image: url('../photos/slot%20machine%20background.jpg');
+    width: 960px;
+    height: 648px;
+    margin: 50px auto;
+}
+
+.reel {
+    position: absolute;
+    top: 250px;
+    height: 275px;
+    width: 116px;
+    background-color: white;
+    border: 1px dotted grey;
+}
+
+#reel-1 {
+    left: 240px;
+}
+    
+#reel-2 {
+    left: 411px;
+}
+    
+#reel-3 {
+    left: 574px;
+}
+    
+#init {
+    position: absolute;
+    top: 587px;
+    left: 413px;
+    height: 30px;
+    width: 90px;
+    background-color: #70dae4;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    color: white;
+    left: 500px;
+    top: 82px;
+    font-size: 50px;
+}
+
+
