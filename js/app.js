@@ -1,10 +1,12 @@
+//set the items for each roll on the slot machine
+var items = [kylie, kim, kanye, crying_kim, kylie_derp, kanye_mad]
 
-var items = [kylie, kim, kris, kanye, caitlyn_jenner, bruce_jenner, crying_kim, kylie_derp, kanye_mad]
-
+//when pressed generates a random combination of images on all the tables using the math.random method to initialize a random number//
 var one = Math.floor((Math.random()*9)+1)
 var two = Math.floor((Math.random()*9)+1)
 var three = Math.floor((Math.random()*9)+1)
 
+//set values of each card
 valArr = [
     83, //kanye_mad
     96, //kylie_derp
@@ -26,6 +28,7 @@ valArr = [
     1496. //kylie
 ]
 
+//determine which combination of images give a winning card
 var winCombo = [];
 win[83] = win[543] = win[1252] = 1;
 win[96] = win[635] = win[1260] = 2;
