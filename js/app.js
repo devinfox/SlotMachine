@@ -1,3 +1,4 @@
+
 //set the items for each roll on the slot machine
 var items = [kylie, kim, kanye, crying_kim, kylie_derp, kanye_mad]
 
@@ -36,3 +37,9 @@ win[208] = win[637] = win[1302] = 3;
 win[209] = win[1096] = win[1311] = 4;
 win[487] = win[1103] = win[1327] = 5;
 win[503] = win[1248] = win[1496] = 6;
+
+function Machine(dom, top, incr) {
+
+}
+
+
