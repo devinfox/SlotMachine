@@ -1,18 +1,37 @@
 body {
-    background-color: black;
+    background-image: url('../photos/background_template.jpg');
     height: 100%;
     width: 100%;
-    font-family: "DejaVu Sans Mono"
+    font-family: "DejaVu Sans Mono";
 }
 
+h1 {
+    position: absolute;
+    font-family: 'Fascinate Inline';
+    font-size: 250%;
+    color: white;
+    left: 280px;
+    text-align: center;
+    top: auto;
+    display: inline;
+    text-shadow: 1px 2px 3px black;
+}
+
+#highscores {
+    color: white;
+    font-size: 325%;
+    border: grey;
+    font-family: 'Anton', sans-serif;
+    display: inline;
+    text-shadow: 1px 2px 3px gold;
+}
 #frame {
     position: relative;
-    background-image: url('../photos/slot%20machine%20background.jpg');
+    background-image: url('../photos/slot%20machine%20background.png');
     width: 960px;
     height: 648px;
-    margin: 50px auto;
+    margin: auto;
 }
-
 .reel {
     position: absolute;
     top: 250px;
@@ -20,20 +39,17 @@ body {
     width: 120px;
     background-color: white;
     background-size: cover;
+    transition: all .2s ease;
 }
-
 #reel-1 {
     left: 240px;
 }
-    
 #reel-2 {
     left: 411px;
 }
-    
 #reel-3 {
     left: 574px;
 }
-    
 #init {
     position: absolute;
     top: 587px;
@@ -45,20 +61,20 @@ body {
     border-radius: 20px;
     text-align: center;
     font-size: 125%;
+}
+#init:hover {
     cursor: pointer;
 }
-
-section#game .score{
-    
+section#game .score {
     display: block;
     position: absolute;
-    top: 10px;
     color: white;
-    left: 500px;
-    top: 82px;
+    left: 490px;
+    top: 75px;
+    font-family: 'Anton', sans-serif;
     font-size: 50px;
+    text-shadow: 1px 2px 3px gold;
 }
-
 #lever {
     position: absolute;
     top: 220px;
@@ -67,4 +83,7 @@ section#game .score{
     width: 90px;
     cursor: pointer;
 }
+
+
+
 
